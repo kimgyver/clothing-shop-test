@@ -1,0 +1,36 @@
+.mini-cart {
+  position: absolute;
+  width: 280px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+  top: 40px;
+  right: 30px;
+  z-index: 5;
+}
+
+.mini-cart h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.mini-cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mini-cart li {
+  margin-bottom: 10px;
+}
+
+.mini-cart li span {
+  margin-right: 10px;
+}
+
+.mini-cart button {
+  margin-top: 30px;
+  height: 30px;
+}

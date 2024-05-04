@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f7;
+  height: 1cm;
+  padding: 0 20px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cart-icon {
+  padding-right: 30px;
+  padding-left: 30px;
+  height: auto;
+  cursor: pointer;
+}
